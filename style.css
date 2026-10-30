@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+#header{
+padding: 50px 0;
+background-color: #222831;
+
+}
+
+.menulist ul {
+    display: flex;
+    gap: 48px;
+}
+
+.menulist ul li a{
+    font-weight: 400px;
+    font-size: 18px;
+    color: #EEEEEE;
+}
+
+.menu-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
