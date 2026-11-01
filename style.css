@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-   
+}
+body{
+    background-color: #222831;
 }
 
 .container{
@@ -107,3 +109,52 @@ border-bottom:1px solid #eeeeee1d;
 }
 
 /* style for banner section end here */
+
+/* about section start here */
+.about-section{
+    padding-bottom:80px;
+    margin-top: 0px;
+    .aboutall{
+        display: flex;
+        gap:120px;
+        border-bottom:2px solid #eeeeee33;
+        padding: 80px 50px;
+        position: relative;
+    }
+}
+
+.about-me{
+    width: 500px;
+    .imgvector{
+        position: absolute;
+        left: 190px;
+        bottom:100px;
+
+    }
+    .text{
+        font-weight:700;
+        font-size: 64px;
+        color:#EEEEEE;
+        line-height:110%;
+        span{
+            color:#00ADB5;
+        }        
+    }
+    p{
+        color:#eeeeee;
+
+        span{
+            color:#00ADB5;
+        }
+    }
+}
+
+.desk{
+    height: 593px;
+    width: 670px;
+    margin-top: 10px;
+    
+   
+}
+/* about section end here */
+
