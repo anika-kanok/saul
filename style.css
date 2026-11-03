@@ -113,11 +113,11 @@ border-bottom:1px solid #eeeeee1d;
 /* about section start here */
 .about-section{
     padding-bottom:80px;
+    border-bottom:2px solid #eeeeee2b;
     margin-top: 0px;
     .aboutall{
         display: flex;
         gap:120px;
-        border-bottom:2px solid #eeeeee33;
         padding: 80px 50px;
         position: relative;
     }
@@ -156,5 +156,61 @@ border-bottom:1px solid #eeeeee1d;
     
    
 }
+
+.lastpart{
+    height: 100px;
+}
 /* about section end here */
+
+
+/* recent-work section start here */
+
+.project-section{
+      background: url(./image/Projects\ Page\ \(1\).png);
+      height: 1024px;
+      display: flex;
+      align-items: center;
+    .recent-project{
+         border:2px solid red;
+        .all-work{
+            display: flex;
+            align-items: center;
+            border:2px solid red;
+            .heading{
+                font-size:64px;
+                font-weight: 700;
+                color: #EEEEEE;
+            }
+            span{
+                color: #00ADB5;
+            }
+
+            .type{
+                border:2px solid red;
+
+                button a{
+                    border:none;
+                    padding: 10px 32px;
+                    background: #000;
+                    border-radius: 24px;
+                    .btn1{
+                        background-color:#00ADB5 ;
+                    }
+                }
+
+            }
+        }
+
+        .all-project{
+            border:2px solid red;
+
+            .project-card{
+                border:2px solid red;
+            }
+        }
+
+    }
+}
+
+/* recent-work section start here */
 
