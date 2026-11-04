@@ -226,6 +226,7 @@ border-bottom:1px solid #eeeeee1d;
     justify-content: center;
     align-items: center;
     row-gap: 20px;
+    position: relative;
 
     .footer-top{
         display: flex;
@@ -250,6 +251,8 @@ border-bottom:1px solid #eeeeee1d;
     }
 
     .footer-bottom{
+        display: flex;
+        gap: 20px;
         div {
             width: 48px;
             height: 48px;
@@ -270,6 +273,9 @@ border-bottom:1px solid #eeeeee1d;
     }
 
     .term{
+        position: absolute;
+        right: 40px;
+        bottom:30px;
         p{
             color:#eeeeee62;
         }
