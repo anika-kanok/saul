@@ -290,38 +290,48 @@ border-bottom:1px solid #eeeeee1d;
 
 
     .contact-info{
-        .form{
-            background-color:rgba(0, 0, 0, 0.078) ;
+        .label2{
+             display: flex;
+             gap: 40px;
+             margin-bottom: 24px;
+            .label{
+              margin-top: 20px;
+                input{
+                    margin-top: 20px;
+                    background-color: #393E46;
+                    border: none;
+                    padding:12px 27px;
+                    border-radius: 25px;
+                }
+            }
         }
+
         label{
             color:white;
             font-size: 18px;
+            font-weight: 700;
         }
-        .label2{
-            display: flex;
-            gap:40px;
+
+        textarea{
+            background-color: #393E46;
+            border:none;
+            padding:20px;
+            border-radius: 20px;
+            margin-top: 10px;
+            margin-bottom: 24px;
+
         }
-        input[type=text],input[type=email],t selet {
-        width: 100%;
-        padding: 12px;
-        margin: 8px 0;
-        display: inline-block;
-        box-sizing: border-box;
-        border:none;
-        background-color: #393E46;
+
+
+        button{
+            background-color: #00ADB5;
+            padding:10px 32px;
+            border-radius: 50px;
+            border: none;
+        }
+    
     }
-    input[type=submit] {
-        width: 100%;
-         background-color: #4CAF50;
-         color: rgba(19, 19, 19, 0.197);
-         padding: 14px;
-         margin: 8px 0;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-        background-color: #000;
-}
-    }
+    
 }
 /* contact-section end here */
 
