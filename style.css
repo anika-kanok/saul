@@ -165,61 +165,65 @@ border-bottom:1px solid #eeeeee1d;
 
 /* recent-work section start here */
 
-.project-section{
-      background: url(./image/Projects\ Page\ \(1\).png);
-      height: 1024px;
-      display: flex;
-      align-items: center;
-    .recent-project{
-         border:2px solid red;
-        .all-work{
-            display: flex;
-            align-items: center;
-            border:2px solid red;
-            .heading{
-                font-size:64px;
-                font-weight: 700;
-                color: #EEEEEE;
-            }
-            span{
-                color: #00ADB5;
-            }
+.workpart{
+    padding:269px 0;
+    background-image:url(./image/Projects\ Page\ \(1\).png);
+}
 
-            .type{
-                border:2px solid red;
+.workbtn{
+    display: flex;
+    gap:16px;
+    margin-bottom: 48px;
+}
 
-                button a{
-                    border:none;
-                    padding: 10px 32px;
-                    background: #000;
-                    border-radius: 24px;
-                    .btn1{
-                        background-color:#00ADB5 ;
-                    }
-                }
 
-            }
+.one{
+    padding:10px 32px;
+    background:#00ADB5;
+    border-radius: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+
+.one:hover{
+    background-color:rgb(57,62,70,0.5);
+    transition:all linear 3s;
+}
+.work{
+    h2{
+        font-size: 64px;
+        font-weight: 700;
+        color: white;
+        span{
+            color:#00ADB5;
         }
-
-        .all-project{
-            border:2px solid red;
-
-            .project-card{
-                border:2px solid red;
-            }
-        }
-
     }
 }
 
-/* recent-work section start here */
+.workcard{
+    display: flex;
+    gap: 48px;
+}
+
+.cardone{
+    padding:61px 15px;
+    background-color:rgb(57,62,70,0.5);
+    border-radius: 16px;
+
+}
+
+.img1{
+    padding:0px 50px;
+}
+
+
+/* recent-work section end here */
 
 
 /* contact-section start here */
-
-/* contact-section end here */
-
-
 .contact-section {
     height: 1024px;
     position: relative;
@@ -319,6 +323,10 @@ border-bottom:1px solid #eeeeee1d;
 }
     }
 }
+/* contact-section end here */
+
+
+
 
 /* footer section start here */
 
